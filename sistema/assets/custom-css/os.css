@@ -1,0 +1,82 @@
+
+.txt-cor-primaria{
+    color: #08A045; 
+}
+
+.bg-cor-primaria{
+    background-color: #08A045;
+    color: white;
+}
+
+.btn-cor-primaria{
+    background-color: #08A045;
+    border-color:#08A045;
+    color: white;
+}
+
+.btn-cor-primaria:not(:disabled):not(.disabled).active{
+    background-color: #0E3319;
+    border-color:#0E3319;
+    color: white;
+}
+
+.borda-cor-primaria{
+    border-color: #08A045;
+}
+
+.bg-cor-accent-primaria{
+    background-color: #09814A !important;
+    color: white;
+}
+
+.btn-cor-accent-primaria{
+    background-color: #09814A;
+    color: white;
+}
+
+.border-cor-accent-primaria{
+    border: 1px solid #09814A;
+}
+
+.icon-legenda-accent-primaria{
+    color: #09814A;
+}
+
+.cor-accent-primaria{
+    color: #0E3319;
+}
+
+.btn-cor-accent-secundaria{
+    background-color: #0E3319;
+    color: white;
+}
+
+.btn-cor-accent-secundaria:not(:disabled):not(.disabled).active{
+    background-color: #09814A !important;
+    color: white !important;
+}
+
+.icon-legenda-accent-secundaria{
+    color: #0E3319;
+}
+
+.procurar-arquivo::after{
+    content: "Procurar";
+}
+
+.modal{
+    overflow-y: auto !important;
+}
+
+.social-box-line-heigth{
+    line-height: 80px !important;
+}
+
+.inputfile{
+    width: 0.1px;
+    height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}

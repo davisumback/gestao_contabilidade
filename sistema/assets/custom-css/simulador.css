@@ -1,0 +1,132 @@
+.btn-padrao{
+    border-radius: 5px !important;
+}
+
+.btn-simular{
+    background-color: #1B5E20;
+    border-color: #1B5E20;
+    border-radius: 5px;
+    padding: 8px 17px;
+}
+
+.btn-voltar{
+    color: #FAFAFA;
+    border-radius: 5px;
+    padding: 8px 17px;
+}
+
+.btn-voltar:hover{
+    color: #FAFAFA;
+}
+
+.simulador-card-header{
+    background-color: #B2DBBF;
+}
+
+.simulador-card-header h3{
+    color: #1B5E20;
+}
+
+.simulador-card{
+    color: #1B5E20;
+}
+
+.anexo3{
+    color: #1B5E20;
+    background: url(../../images/anexo3.png) no-repeat;
+}
+
+.anexo5{
+    background: url(../../images/anexo5.png) no-repeat;
+    color: white;
+}
+
+.badge-valor{
+    padding: 8px 12px;
+    font-size: 0.8em;
+    min-width: 36%;
+}
+
+.badge-meses{
+    background-color: #05668D;
+    color: white;
+}
+
+.badge-faturamento{
+    background-color: #02C39A;
+    color: white;
+}
+
+.badge-faturamento-real{
+    background-color: #00A896;
+    color: white;
+}
+
+.badge-rtb{
+    background-color: #757575;
+    color: white;
+}
+
+.badge-valor-m{
+    padding: 6px 8px;
+    font-size: 0.8em;
+    min-width: 100px;
+}
+
+.badge-prolabore{
+    background-color: #028090;
+    color: white;
+}
+
+.badge-cpp{
+    background-color: #F0F3BD;
+    color: #757575;
+}
+
+.card-item h6{
+    line-height: 36px;
+}
+
+.card-projetado{
+    background-color: #D3C4D1 !important;
+}
+
+/******************** Simulador Resumido *************************/
+.badge-comparativo{
+    padding: 7px 10px;
+    font-size: 0.9em;
+    min-width: 110px;
+}
+.badge-anexo3{
+    background-color: #9C89B8;
+    color: white;
+}
+.badge-anexo5{
+    background-color: #F0A6CA;
+    color: white;
+}
+.badge-presumido{
+    background-color: #B8BEDD;
+    color: white;
+}
+/******************** Simulador Resumido *************************/
+
+@media (min-width: 576px){}
+
+@media (min-width: 768px){}
+
+@media (min-width: 992px){}
+
+@media (min-width: 1200px){
+
+    .badge-valor{
+        padding: 10px 15px;
+        font-size: 0.9em;
+        min-width: 33%;
+    }
+
+    .badge-valor-m{
+        padding: 7px 10px;
+        font-size: 0.9em;
+    }
+}

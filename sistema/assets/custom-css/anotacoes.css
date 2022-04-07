@@ -1,0 +1,31 @@
+.card-anotacao{
+    height: 22em !important;
+    border-radius: 5px;
+}
+
+.bg-anotacao-prioridade{
+    background-color: #FBC02D !important;
+}
+
+.bg-anotacao-atrasada{
+    background-color: #B71C1C !important;
+}
+
+.card-anotacao-index:hover {
+    transition: 1s;
+    margin-left: 12px;
+    margin-right: -12px;
+    -webkit-box-shadow: -6px 2px 24px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: -6px 2px 24px -8px rgba(0,0,0,0.75);
+    box-shadow: -6px 2px 24px -8px rgba(0,0,0,0.75);
+}
+
+.card-anotacao-index:hover h2{
+    transition: 1s;
+    color: #C62828;
+}
+
+.card-anotacao-index h2 {
+    color: #757575;
+    line-height: 120px;
+}

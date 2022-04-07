@@ -1,0 +1,366 @@
+#header {
+    background-color: white;
+}
+
+/* #left-panel {
+    position: fixed;
+} */
+
+.text-dark-blue{
+    color: #002868!important;
+}
+
+.navbar .navbar-nav li.active .menu-icon, .navbar .navbar-nav li:hover .toggle_nav_button:before, .navbar .navbar-nav li .toggle_nav_button.nav-open:before{
+  color: white!important;
+}
+
+.navbar .navbar-nav > .active > a, .navbar .navbar-nav > .active > a:focus {
+    color: white!important;
+    font-weight: bold;
+}
+
+.navbar .navbar-nav > .active > a:hover{
+    color: #db6873 !important;
+}
+
+.navbar .navbar-nav li.menu-item-has-children a:hover::before{
+    color: #db6873 !important;
+}
+
+.navbar .navbar-nav li > a {
+    color: white!important;
+    font-weight: bold;
+}
+
+.navbar .navbar-nav li > a:hover{
+    color: #db6873 !important;
+}
+
+.navbar .navbar-nav li > a:hover, .navbar .navbar-nav li > a:hover .menu-icon{
+    color: #db6873 !important;
+}
+
+.navbar .navbar-nav li > a .menu-icon {
+    color: white!important;
+}
+
+.navbar .navbar-nav li.menu-item-has-children .sub-menu {
+    background-color: rgba(3, 155, 229, 0);
+}
+
+.navbar .navbar-nav li.menu-item-has-children .sub-menu i {
+    color: white !important;
+}
+
+.navbar .navbar-nav li.menu-item-has-children a:before {
+    /* color: #3A506B !important; */
+    content: none !important;
+}
+
+.nav-link:hover{
+    background-color: #db6873;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.left-panel, nav{
+    background-color: white !important;
+    /* background-image: linear-gradient(white 10%, #55ebf8 90%) !important; */
+    padding: 15px !important;
+}
+
+.left-panel{
+    /* height: 70px !important; */
+    padding: 0px !important;
+}
+
+.menutoggle {
+    background: white;
+    font-size: 20px;
+    padding: 7px 13px;
+}
+
+.btn-padrao {
+    border-radius: 5px !important;
+}
+
+.menu-title{
+    color: white!important;
+}
+
+.titulo-navegacao{
+    color: #650912;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: -40px;
+}
+
+.avatar{
+    height: 50px !important;
+    width: 50px !important;
+}
+
+.avatar-lg{
+    height: 110px !important;
+    width: 110px !important;
+}
+
+.configuracao-menu{
+    line-height: 40px;
+    color: #650912;
+    font-size: 1.5em;
+}
+
+.user-menu i{
+    color: #650912;
+}
+
+.user-area .user-menu .nav-link{
+    color: #650912;
+}
+
+.texto-padrao {
+    color: #650912;
+}
+
+.texto-bold {
+    font-weight: bold;
+}
+
+.logo-marca{
+    max-width: 180px !important;
+}
+
+.dropdown-menu-right{ 
+    right: -40; 
+    left: auto !important; 
+}
+
+.linha{
+    margin-top: 15px;
+    border-top: 2px solid #E0E0E0;
+}
+
+.tabela-sem-borda td {
+    border:none !important;
+}
+
+.tabela-sem-borda th {
+    border:none !important;
+}
+
+@media (min-width: 321px) {
+
+    .dropdown-menu-right{ 
+        right: 0; 
+        left: auto !important; 
+    }
+
+}
+
+/* .widget-cpfcnpj-div i{
+    background-color: #039BE5;
+    color: white;
+}
+
+.titulo-widget-cpfcnpj{
+    padding-top: 5px;
+    background-color: #039BE5;
+    margin-bottom: 0;
+    color: white;
+}
+
+.icone-widget-cpfcnpj{
+    margin: 0 !important;
+    line-height: 70px !important;
+}
+
+.titulo-widget-cpfcnpj-rodape{
+    background-color: #039BE5;
+    margin-bottom: 0;
+    padding-bottom: 7px;
+    color: white;
+}
+
+.widget-div i{
+    background-color: #09814A;
+    color: white;
+}
+
+.titulo-widget{
+    padding-top: 5px;
+    background-color: #09814A;
+    margin-bottom: 0;
+    color: white;
+}
+
+.icone-widget{
+    margin: 0 !important;
+    line-height: 70px !important;
+}
+
+.titulo-widget-rodape{
+    background-color: #09814A;
+    margin-bottom: 0;
+    padding-bottom: 7px;
+    color: white;
+}
+
+.card-button{
+    cursor: pointer;
+}
+
+.card-button:hover{
+    transition: 1s;
+    box-shadow: 0 0 0.1em #616161;
+}
+
+.card-button:active{
+    background-color: #F5F5F5;
+}
+
+.border-financeiro{
+    border-radius: 2px;
+    border-top: 2px solid #09814A;
+}
+
+.border-financeiro:hover{
+    transition: 2s;
+    background-color: rgba(9, 129, 74, 0.3);
+}
+
+.border-contador{
+    border-radius: 2px;
+    border-top: 2px solid #039BE5;
+}
+
+.border-contador:hover{
+    transition: 2s;
+    background-color: rgba(3, 155, 229, 0.3);
+}
+
+.border-rh{
+    border-radius: 2px;
+    border-top: 2px solid #5E35B1;
+}
+
+.border-rh:hover{
+    transition: 2s;
+    background-color: rgba(94, 53, 177, 0.3);
+}
+
+.texto-table{
+    color: #1B5E20;
+}
+
+.btn-deletar-nota{
+    background-color: #EF5350;
+}
+
+.btn-edita-usuario{
+    border-radius: 5px;
+}
+
+.btn-prosseguir{
+    padding-top: 5px;
+    margin-top: 6px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+.custom-control-label:before{
+  background-color: #E0E0E0;
+}
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before{
+  background-color: #1B5E20;
+}
+
+.border-50{
+    border-radius: 50% !important;
+} */
+
+/* .btn-padrao{
+    border-radius: 5px;
+}
+
+.nav-pagination{
+    background-color: rgba(0,0,0,0) !important;
+}
+
+.paginacao-menu{
+    background-color: rgba(0,0,0,0) !important;
+}
+
+.paginacao-menu ul li a{
+    color: #09814A;
+}
+
+.page-item.active .page-link{
+    border-color: #1B5E20;
+    background-color: #1B5E20;
+}
+
+.paginacao-menu ul li a:hover{
+    color: #1B5E20;
+}
+
+.paginacao-menu ul li a:focus{
+    color: #1B5E20;
+}
+
+.card-pipedrive{
+}
+
+.card-bg-blue{
+    background-color: #1E88E5;
+}
+
+.bg-flat-color-white{
+    background-color: white;
+}
+
+.card-pipedrive{
+    cursor: pointer;
+}
+
+.card-pipedrive:hover{
+    transition: 1s;
+    -webkit-box-shadow: -2px 0px 10px 0px rgba(54,54,54,1);
+    -moz-box-shadow: -2px 0px 10px 0px rgba(54,54,54,1);
+    box-shadow: -2px 0px 10px 0px rgba(54,54,54,1);
+} */
+
+@media (max-width: 350px) {
+    .titulo-navegacao{
+        font-size: 13px !important;
+
+    }
+}
+
+@media (min-width: 576px){
+    .left-panel, nav{
+        padding: 0px !important;
+    }
+    .left-panel{
+        padding-left: 25px !important;
+        padding-right: 25px !important;
+    }
+
+}
+
+@media (min-width: 992px){
+
+}
+
+@media (min-width: 768px){
+
+}
+
+@media (max-width: 575.98px) {
+    .titulo-navegacao{
+        font-size: 15px;
+        margin-top: 0;
+    }
+}

@@ -1,0 +1,74 @@
+.btn-padrao{
+    border-radius: 5px;
+}
+
+.titulo-nav-tab{
+    font-weight: bold !important;
+    color: #363020 !important;
+}
+
+.pasta-com-conteudo{
+    font-weight: bold;
+    color: #1B5E20 !important;
+}
+
+.arquivo{
+    color: #3A506B;
+    font-weight: bold;
+}
+
+.icone-add-folder{
+    height: 2em;
+}
+
+.icones-menu-navegador-arquivos{
+    cursor: pointer;
+    font-size: 2.3em;
+    color: #5BC0BE !important;
+}
+
+.icones-menu-navegador-arquivos:hover{
+    transition: 1.5s;
+    color: #1C2541 !important;
+}
+
+.card-pastas{
+    border: none;
+    background-color: #f1f2f7;
+    display: inline-block;
+}
+
+.div-icone-remover{
+    min-height: 1.2em;
+}
+
+.card-icone-remover{
+    cursor: pointer;
+    padding-bottom: 0;
+    font-size: 1em;
+    color: #E53935;
+}
+
+.card-icone-remover:hover{
+    font-size: 1.2em;
+    color: #B71C1C;
+}
+
+.div-icone-pasta{
+    min-height: 4.8em !important;
+}
+
+.card-incone-pastas {
+    color: #1B5E20;
+    font-size: 2.2em;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.card-teste{
+    padding-bottom: 5px;
+}
+
+.card-nome-pasta{
+    margin-bottom: 0 !important;
+}

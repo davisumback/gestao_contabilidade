@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../../assets/custom-css/cadastro.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <table id="myTable" class="table table-bordered table-hover">
+        <thead class="label-cadastro">
+            <tr class="table-success text-center">
+                <th scope="col" colspan="2" style="border:none!important;background-color:#f1f2f7!important;"></th>
+                <th scope="col" colspan="2">Competência</th>
+            </tr>
+            <tr class="table-success">
+                <th scope="col">Número</th>
+                <th scope="col">Nome</th>
+                <th scope="col" class="text-center">{{competenciaAnteriorView}}</th>
+                <th scope="col" class="text-center">{{dataCompetenciaView}}</th>
+            </tr>
+        </thead>
+        <tbody class="label-cadastro">
+            <tr>
+                {{linhasTabela}}
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

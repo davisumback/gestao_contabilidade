@@ -1,0 +1,9 @@
+.textarea-email{
+    background-color: white;
+    border: solid 1px grey !important;
+    height: 400px;
+}
+
+.border-danger{
+    border: solid 1px red !important;
+}

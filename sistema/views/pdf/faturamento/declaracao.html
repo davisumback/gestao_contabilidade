@@ -1,0 +1,69 @@
+<html>
+  <head> </head>
+  <body>
+    <h2 style="text-align:center;">Declaracao de Faturamento</h2>
+    <table class="layout">
+      <tr>
+        <td style="padding-top:100px"></td>
+      </tr>
+
+      <tr>
+        <td>Empresa:</td>
+        <td>{{ nomeEmpresa }}</td>
+      </tr>
+      <tr>
+        <td>CNPJ:</td>
+        <td>{{ cnpj }}</td>
+      </tr>
+      <tr>
+        <td>{{ endereco }}</td>
+      </tr>
+    </table>
+
+    <table style="margin:auto;" class="layout">
+      <tr>
+        <td style="padding-top:25px"></td>
+      </tr>
+
+      <tr style="background-color:#E0E0E0">
+        <td>Mês/Ano</td>
+        <td style="padding-right:150px"></td>
+        <td>Total</td>
+      </tr>
+      <tr>
+        <td style="padding-top:10px"></td>
+      </tr>
+      <tr>
+        {{
+          mesesFaturamento
+        }}
+      </tr>
+      <tr>
+        <td>01/2019</td>
+        <td style="padding-right:150px"></td>
+        <td>R$1.000,00</td>
+      </tr>
+      <tr>
+        <td>02/2019</td>
+        <td style="padding-right:150px"></td>
+        <td>R$2.000,00</td>
+      </tr>
+      <tr>
+        <td style="padding-top:10px"></td>
+      </tr>
+      <tr style="background-color:#E0E0E0">
+        <td>Total</td>
+        <td style="padding-right:150px"></td>
+        <td>Valor</td>
+      </tr>
+
+      <tr>
+        <td style="padding-top:200px"></td>
+      </tr>
+    </table>
+
+    <div style="text-align:center;">
+      <img src="../images/assinatura_william.png" width="242" />
+    </div>
+  </body>
+</html>

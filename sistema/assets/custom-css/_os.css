@@ -1,0 +1,45 @@
+.bg-dark-blue{
+    background-color: #002868;
+    color: white;
+}
+
+.btn-nova-solicitacao{
+    background-color: #002868;
+    border-color:#002868;
+}
+
+.btn-dark-blue{
+    background-color: #002868;
+    color: white;
+}
+
+.btn-medium-blue{
+    background-color: #3A506B;
+    color: white;
+}
+
+.cor-borda{
+    border-color: #002868;
+}
+
+.procurar-arquivo::after{
+    content: "Procurar";
+}
+
+.bg-info-hover:hover{
+    transition: 1s;
+    background-color: #169db2;
+    color: white;
+}
+
+.bg-warning-hover:hover{
+    transition: 1s;
+    background-color: #f7bb07;
+    color: white;
+}
+
+.bg-success-hover:hover{
+    transition: 1s;
+    background-color: #27a243;
+    color: white;
+}

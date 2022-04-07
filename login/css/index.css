@@ -1,0 +1,142 @@
+html,
+body {
+  	height: 100%;
+
+}
+
+body {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #A5D6A7;
+}
+
+.mensagem-usuario{
+	position: fixed;
+	width: 100%;
+	top: 30px;
+}
+
+.logo-login{
+	width: 300px;
+}
+
+.alert-login{
+  width: 50%;
+  margin: auto;
+}
+
+.form{
+	width: 100%;
+	display: block;
+	float: left;
+	clear: both;
+	position: relative;
+}
+
+.form-registra-cancela{
+	display: block;
+	float: left;
+	position: relative;
+}
+
+.form-signin {
+	box-shadow: 0 0 1em #616161;
+	border-radius: 5px;
+	background-color: rgba(250, 250, 250, 0.80);
+  	width: 100%;
+  	max-width: 330px;
+  	padding: 15px;
+  	margin: auto;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+	margin-bottom: 10px;
+}
+
+.form-signin input[type="number"] {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+	margin-bottom: 10px;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.form-signin input[type="text"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.btn-entrar{
+	font-weight: 700;
+	color: white;
+	background-color: #1B5E20;
+	border-color: #1B5E20;
+	padding: 10px 20px;
+	width: 100%;
+}
+
+.btn-cancelar-login{
+	margin-top: 10px;
+	font-weight: 700;
+	color: white;
+	background-color: #FF5252;
+	border-color: #D50000;
+	padding: 10px 20px;
+	width: 100%;
+}
+
+.message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.message a {
+  font-weight: 300;
+  color: #fed136;
+  text-decoration: none;
+}
+
+.text-error{
+	color: red;
+	display: none;
+	font-size: 12px;
+}
+
+input[type="text"]:focus, input[type="password"]:focus{
+	border-color: rgba(56, 142, 60, 1);
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(56, 142, 60, 1);
+}
+
+@media (max-width: 767.98px) {
+	.logo-login{
+		width:200px;
+	}
+  .alert-login{
+    width: 90%;
+    margin: auto;
+
+  }
+}

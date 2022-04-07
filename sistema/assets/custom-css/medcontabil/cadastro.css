@@ -1,0 +1,75 @@
+.body{
+	background-color: #A5D6A7;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container {
+  max-width: 960px;
+}
+
+.btn-cadastrar{
+	border-radius: 5px;
+	font-weight: 500;
+	color: white;
+	background-color: #3A506B;
+	border-color: #3A506B;
+}
+
+.btn-cadastrar:active{
+	background-color: #3A506B;
+	color: #ffff;
+}
+
+#texto-nota:focus{
+	border-color: #3A506B;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #3A506B;
+}
+
+textarea:hover{
+	border-color: #3A506B;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #3A506B;
+}
+
+input[type="text"]:focus, input[type="number"]:focus,
+input[type="date"]:focus, input[type="email"]:focus, input[type="submit"]:focus{
+	border-color: #3A506B;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #3A506B;
+}
+
+.custom-select:focus{
+	border-color: #3A506B;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #3A506b;
+}
+
+.label-cadastro{
+	color: #002868;
+	font-weight: 700;
+}
+
+.label-check{
+	padding: 0;
+}
+
+.div-check{
+	padding-left: 20px;
+}
+
+.titulo-cadastro{
+	color: #1B5E20;
+	font-weight: 700;
+}
+
+.pre-cadastro-info p{
+	color: #1B5E20;
+	font-weight: 400;
+}
+
+.pre-cadastro-info h6{
+	color: #1B5E20;
+	font-weight: 700;
+}
+
+.custom-file-input:lang(pt) ~ .custom-file-label::after {
+	content: "Procurar" !important;
+	cursor: pointer;
+}

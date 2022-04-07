@@ -1,0 +1,398 @@
+.vertical-align-middle td {
+    vertical-align: middle;
+}
+
+.cor-secundaria {
+    color: #1B5E20;
+}
+
+.bg-cor-secundaria {
+    background-color: #1B5E20;
+}
+
+.navbar .navbar-brand{
+  font-weight: bold;
+  color: #1B5E20!important;
+}
+
+.navbar .navbar-nav li.active .menu-icon, .navbar .navbar-nav li:hover .toggle_nav_button:before, .navbar .navbar-nav li .toggle_nav_button.nav-open:before{
+  color: #1B5E20!important;
+}
+
+.navbar .navbar-nav > .active > a, .navbar .navbar-nav > .active > a:focus, .navbar .navbar-nav > .active > a:hover{
+    color: #1B5E20!important;
+    font-weight: bold;
+}
+
+.navbar .navbar-nav li > a {
+    color: #1B5E20!important;
+    font-weight: bold;
+}
+
+.navbar .navbar-nav li > a .menu-icon {
+    color: #1B5E20!important;
+}
+
+.navbar .navbar-nav li.menu-item-has-children .sub-menu {
+    background-color: #C8E6C9 !important;
+}
+
+.navbar .navbar-nav li.menu-item-has-children .sub-menu i {
+    color: #1B5E20!important;
+}
+
+.navbar .navbar-nav li.menu-item-has-children a:before {
+    content: none !important;
+}
+
+.nav-link:hover{
+    background-color: #C8E6C9;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.left-panel, nav{
+  background-color: #C8E6C9 !important;
+}
+
+.menutoggle {
+  background: #1B5E20!important;
+  font-size: 20px;
+  padding: 7px 10px;
+}
+
+.menu-title{
+  color: #1B5E20!important;
+}
+
+.titulo-navegacao{
+    color: #1B5E20;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: -40px;
+}
+
+.avatar{
+    height: 40px !important;
+    width: 40px !important;
+}
+
+.widget-calendar-div i{
+    background-color: #00796B;
+    color: white;
+}
+
+.titulo-widget-calendar{
+    padding-top: 5px;
+    background-color: #00796B;
+    margin-bottom: 0;
+    color: white;
+}
+
+.icone-widget-calendar{
+    margin: 0 !important;
+    line-height: 70px !important;
+}
+
+.titulo-widget-calendar-rodape{
+    background-color: #00796B;
+    margin-bottom: 0;
+    padding-bottom: 7px;
+    color: white;
+}
+
+.widget-cpfcnpj-div i{
+    background-color: #039BE5;
+    color: white;
+}
+
+.titulo-widget-cpfcnpj{
+    padding-top: 5px;
+    background-color: #039BE5;
+    margin-bottom: 0;
+    color: white;
+}
+
+.icone-widget-cpfcnpj{
+    margin: 0 !important;
+    line-height: 70px !important;
+}
+
+.titulo-widget-cpfcnpj-rodape{
+    background-color: #039BE5;
+    margin-bottom: 0;
+    padding-bottom: 7px;
+    color: white;
+}
+
+.widget-div i{
+    background-color: #09814A;
+    color: white;
+}
+
+.item-total-empresas {
+    width: 33% !important;
+}
+
+.item-border-right {
+    border-right: 1px solid #c2cfd6;
+}
+
+.item-border-left {
+    border-left: 1px solid #c2cfd6;
+}
+
+.item-align-left {
+    align: left;
+}
+
+.titulo-widget{
+    padding-top: 5px;
+    background-color: #09814A;
+    margin-bottom: 0;
+    color: white;
+}
+
+.icone-widget{
+    margin: 0 !important;
+    line-height: 70px !important;
+}
+
+.titulo-widget-rodape{
+    background-color: #09814A;
+    margin-bottom: 0;
+    padding-bottom: 7px;
+    color: white;
+}
+
+.card-button{
+    cursor: pointer;
+}
+
+.card-button:hover{
+    transition: 1s;
+    box-shadow: 0 0 0.1em #616161;
+}
+
+.card-button:active{
+    background-color: #F5F5F5;
+}
+
+.card-inconsistencia:hover{
+    transition: 1s;
+    margin-left: 10px;
+    margin-right: -10px;
+}
+
+.border-financeiro{
+    border-radius: 2px;
+    border-top: 2px solid #09814A;
+}
+
+.border-financeiro:hover{
+    transition: 2s;
+    background-color: rgba(9, 129, 74, 0.3);
+}
+
+.border-contador{
+    border-radius: 2px;
+    border-top: 2px solid #039BE5;
+}
+
+.border-contador:hover{
+    transition: 2s;
+    background-color: rgba(3, 155, 229, 0.3);
+}
+
+.border-rh{
+    border-radius: 2px;
+    border-top: 2px solid #5E35B1;
+}
+
+.border-rh:hover{
+    transition: 2s;
+    background-color: rgba(94, 53, 177, 0.3);
+}
+
+.texto-table{
+    color: #1B5E20;
+}
+
+.btn-deletar-nota{
+    background-color: #EF5350;
+}
+
+.btn-edita-usuario{
+    border-radius: 5px;
+}
+
+.btn-prosseguir{
+    padding-top: 5px;
+    margin-top: 6px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.linha{
+    margin-top: 15px;
+    border-top: 1px solid #E0E0E0;
+}
+.custom-control-label:before{
+  background-color: #E0E0E0;
+}
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before{
+  background-color: #1B5E20;
+}
+
+.custom-radio .custom-control-input:checked~.custom-control-label::before{
+    background-color: #1B5E20;
+}
+
+.border-50{
+    /* border-style: none!important; */
+    border-radius: 50% !important;
+}
+
+.btn-padrao{
+    border-radius: 5px;
+}
+
+.nav-pagination{
+    background-color: rgba(0,0,0,0) !important;
+}
+
+.paginacao-menu{
+    background-color: rgba(0,0,0,0) !important;
+}
+
+.paginacao-menu ul li a{
+    color: #09814A;
+}
+
+.page-item.active .page-link{
+    border-color: #1B5E20;
+    background-color: #1B5E20;
+}
+
+.paginacao-menu ul li a:hover{
+    color: #1B5E20;
+}
+
+.paginacao-menu ul li a:focus{
+    color: #1B5E20;
+}
+
+.card-pipedrive{
+}
+
+.card-bg-blue{
+    background-color: #1E88E5;
+}
+
+.bg-flat-color-white{
+    background-color: white;
+}
+
+.card-pipedrive{
+    cursor: pointer;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.card-pipedrive:hover{
+    transition: 1s;
+    -webkit-box-shadow: -2px 0px 10px 0px rgba(54,54,54,1);
+    -moz-box-shadow: -2px 0px 10px 0px rgba(54,54,54,1);
+    box-shadow: -2px 0px 10px 0px rgba(54,54,54,1);
+}
+
+.bg-blue{
+    background-color: #1E88E5;
+}
+
+.bg-green {
+    background-color: #09814A;
+}
+
+.bg-red {
+    background-color: #C62828;
+}
+
+.bg-yellow {
+    background-color: #ffc107;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.line-height-card-adm{
+    line-height: 2;
+}
+
+@media (max-width: 350px) {
+    .titulo-navegacao {
+        font-size: 13px !important;
+    }
+}
+
+.titulo-total-empresas {
+    font-size: 0.9em !important;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) 100% */
+@media (min-width: 1200px) {
+    .titulo-total-empresas {
+        font-size: 1em !important;
+    }
+
+    .card-body {
+        padding: 0.8rem;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) 80% */
+@media (min-width: 1600px) {
+    .titulo-total-empresas {
+        font-size: 1.3em !important;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .titulo-navegacao{
+        font-size: 15px;
+        margin-top: 0;
+    }
+}
+
+
+@media (min-width: 1200px){
+    .corrige-bug-navbar{
+        width: 200px;
+    }
+    
+    body[class=""] .corrige-bug-navbar{
+        width: 200px;
+    }
+    
+    body[class="open"] .corrige-bug-navbar{
+        width: 20px;
+    }
+}

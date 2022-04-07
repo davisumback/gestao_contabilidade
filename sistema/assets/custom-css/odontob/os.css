@@ -1,0 +1,102 @@
+
+.txt-cor-primaria{
+    color: #002868; 
+}
+
+.bg-cor-primaria{
+    background-color: #002868;
+    color: white;
+}
+
+.btn-cor-primaria{
+    background-color: #002868;
+    border-color:#002868;
+    color: white;
+    font-weight: bold;
+}
+
+.borda-cor-primaria{
+    border-color: #002868 !important;
+}
+
+.bg-cor-accent-primaria{
+    background-color: #3d060b !important;
+    color: white;
+}
+
+.btn-cor-accent-primaria{
+    background-color: #3A506B;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-cor-accent-primaria:active{
+    background-color: #002868;
+    color: white;
+}
+
+.border-cor-accent-primaria{
+    border: 1px solid #3A506B;
+}
+
+.icon-legenda-accent-primaria{
+    color: #3A506B;
+}
+
+.cor-accent-primaria{
+    color: #5BC0BE
+}
+
+.bg-cor-accent-secundaria{
+    background-color: #5BC0BE;
+    color: white;
+}
+
+.btn-cor-accent-secundaria{
+    background-color: #5BC0BE;
+    color: white;
+}
+
+.btn-cor-accent-secundaria:not(:disabled):not(.disabled).active{
+    background-color: #3A506B !important;
+    color: white !important;
+}
+
+.icon-legenda-accent-secundaria{
+    color: #5BC0BE;
+}
+
+.procurar-arquivo::after{
+    content: "Procurar";
+}
+
+.modal{
+    overflow-y: auto !important;
+}
+
+.social-box-line-heigth{
+    line-height: 80px !important;
+}
+
+.inputfile{
+    width: 0.1px;
+    height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+/* .inputfile + label {
+    font-size: 1.25em;
+    font-weight: 700;
+    color: white;
+    background-color: black;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.inputfile:focus + label,
+.inputfile + label:hover {
+    background-color: red;
+} */

@@ -1,0 +1,21 @@
+body{
+    background-color: #a5d6a7;
+}
+.logo{
+    margin-top: 25%;
+    width: 200px;
+}
+.txt{
+    color: #003313;
+    font-size: 1.8em;
+}
+
+@media (min-width: 576px){
+    .logo{
+        margin-top: 25%;
+        width: 400px;
+    }
+    .txt{
+        font-size: 2.5em;
+    }
+}
